@@ -22,7 +22,6 @@ foreach ($file as $index => $line) {
 $count = 0;
 foreach($entries as $entry) {
     foreach($entry->output as $out) {
-        echo("$out ");
         $len = strlen($out);
         if ($len == 2 || $len == 3 || $len == 4 || $len == 7) {
             $count++;
